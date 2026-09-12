@@ -1,0 +1,73 @@
+# Machine-readable tracked SRE contribution projects
+# last_seeded: 2026-09-12
+projects:
+  - name: k8sgpt
+    repo: k8sgpt-ai/k8sgpt
+    url: https://github.com/k8sgpt-ai/k8sgpt
+    focus: kubernetes-diagnostics
+    labels_to_watch:
+      - good first issue
+      help wanted
+  - name: atlantis
+    repo: runatlantis/atlantis
+    url: https://github.com/runatlantis/atlantis
+    focus: terraform-pr-automation
+    labels_to_watch:
+      - good first issue
+      help wanted
+  - name: chaos-mesh
+    repo: chaos-mesh/chaos-mesh
+    url: https://github.com/chaos-mesh/chaos-mesh
+    focus: chaos-engineering
+    labels_to_watch:
+      - good first issue
+      help wanted
+  - name: litmus
+    repo: litmuschaos/litmus
+    url: https://github.com/litmuschaos/litmus
+    focus: chaos-engineering
+    labels_to_watch:
+      - good first issue
+      help wanted
+  - name: stackstorm
+    repo: StackStorm/st2
+    url: https://github.com/StackStorm/st2
+    focus: event-driven-automation
+    labels_to_watch:
+      - good first issue
+      help wanted
+  - name: opensre
+    repo: Tracer-Cloud/opensre
+    url: https://github.com/Tracer-Cloud/opensre
+    focus: ai-sre-toolkit
+    labels_to_watch:
+      - good first issue
+      help wanted
+  - name: jaeger-ui
+    repo: jaegertracing/jaeger-ui
+    url: https://github.com/jaegertracing/jaeger-ui
+    focus: distributed-tracing-ui
+    labels_to_watch:
+      - good first issue
+      help wanted
+  - name: cloudprober
+    repo: google/cloudprober
+    url: https://github.com/google/cloudprober
+    focus: active-monitoring
+    labels_to_watch:
+      - good first issue
+      help wanted
+  - name: file.d
+    repo: ozontech/file.d
+    url: https://github.com/ozontech/file.d
+    focus: data-pipelines
+    labels_to_watch:
+      - good first issue
+      help wanted
+  - name: k8sgpt-operator
+    repo: k8sgpt-ai/k8sgpt-operator
+    url: https://github.com/k8sgpt-ai/k8sgpt-operator
+    focus: kubernetes-operator
+    labels_to_watch:
+      - good first issue
+      help wanted
